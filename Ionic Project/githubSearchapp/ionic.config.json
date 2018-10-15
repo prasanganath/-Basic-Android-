@@ -1,0 +1,7 @@
+{
+  "name": "githubSearchapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
