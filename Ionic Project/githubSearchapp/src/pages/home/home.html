@@ -9,10 +9,12 @@
 <ion-content padding>
   <ion-grid>
     <ion-row>
-      <ion-col col-12>
+      <ion-col col-4>
         <ion-label>Language</ion-label>
+      </ion-col>
+      <ion-col col-8>
 
-        <ion-select>
+        <ion-select name="language" [(ngModel)] = "language">
           <ion-option value="Java">Java</ion-option>
           <ion-option value="Python">Python</ion-option>
           <ion-option value="CSS">CSS</ion-option>
@@ -34,7 +36,7 @@
     </ion-row>
     <ion-row>
       <ion-col col-12>
-        <ion-searchbar> </ion-searchbar>
+        <ion-searchbar (keyup)="findData($event)"> </ion-searchbar>
         <ion-list>
 
 

@@ -6,9 +6,15 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
+  language:String;
 
   constructor(public navCtrl: NavController) {
 
+  }
+
+  findData(key:any){
+    console.log(key.target.value);
+    console.log(this.language);
   }
 
 }
