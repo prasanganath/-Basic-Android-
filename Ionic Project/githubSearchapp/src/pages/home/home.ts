@@ -24,9 +24,9 @@ export class HomePage {
     keyword:key.target.value,
     lang:this.language
   };
-  this.ServiceProvider.searchRepo(data).subscribe(res=> {
+  this.ServiceProvider.searchRepo(data).subscribe(res=>{
     console.log(res);
-    })
+    });
   }
 }
     
