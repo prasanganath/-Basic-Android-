@@ -11,7 +11,8 @@ content="width=device-width, initial-scale=1">
 
 </head>
 <body>
-	<div data-role="page" id="page1">
+			<!--page1-->
+	<div data-role="page" id="page1" data-theme="a">
 		<div data-role="header">
 			<h1>Page 1</h1>
 		</div>
@@ -24,6 +25,21 @@ content="width=device-width, initial-scale=1">
 			<h1>Footer</h1>
 		</div>
 	</div>
+			<!--page2-->
+	<div data-role="page" id="page2" data-theme="b">
+		<div data-role="header">
+			<h1>Page 2</h1>
+		</div>
+
+		<div role="main" class="ui-contact">
+			<a data-role="button" href="#page1">Go to Page 1</a>
+
+		</div>
+		<div data-role="footer" data-position="fixed">
+			<h1>Footer</h1>
+		</div>
+	</div>
+
 
 </body>
 </html>
